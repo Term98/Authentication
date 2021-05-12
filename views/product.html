@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Retrieve data</title>
+</head>
+<body>
+<center>
+    <h2>Enter name of user to get information</h2>
+    <input type="text" id="user" required="required"><br>
+    <button type="button" onclick="getdata();">Get</button>
+</center>
+<center>
+    <p>Name: <strong id="name"></strong></p>
+    <p>Gender: <strong id="gender"></strong></p>
+    <p>Country: <strong id="country"></strong></p>
+</center>
+
+
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase.js"></script>
+
+
+<script>
+
+    var firebaseConfig = {
+            apiKey: "AIzaSyC8WkSW50xHcKDG76kS5ADNXOZO6uX_S9o",
+            authDomain: "hackathon-657ac.firebaseapp.com",
+            databaseURL: "https://hackathon-657ac-default-rtdb.firebaseio.com/",
+            projectId: "hackathon-657ac",
+            storageBucket: "hackathon-657ac.appspot.com",
+            messagingSenderId: "1004774396728",
+            appId: "1:1004774396728:web:55b0d8c151bdf6acc467cd",
+            measurementId: "G-5EZNE47F14",
+          };
+
+
+          firebase.initializeApp(firebaseConfig);
+
+</script>
+
+</script>
+<script src="/app.js" type="application/javascript"></script>
+</body>
+
+</body>
+</html> 
